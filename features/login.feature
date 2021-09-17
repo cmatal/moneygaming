@@ -6,7 +6,5 @@ Scenario: Required fields at SignUp
   Given a user navigates to the SignUp page
   When only title, first and surname are entered
   And even if t&c are accepted
+  And Join Now! is clicked
   Then The following error is shown at least once: This field is required
-
-
-  
